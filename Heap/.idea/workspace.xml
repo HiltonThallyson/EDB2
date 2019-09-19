@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dcd8fbc-3033-46d2-8dc1-a467e972f02c" name="Default Changelist" comment="" />
+    <list default="true" id="6dcd8fbc-3033-46d2-8dc1-a467e972f02c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Heap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/FilaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/FilaBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arvore-binaria-busca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../arvore-binaria-busca/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arvore-binaria-busca/arvore-binaria-busca/src/br/com/waldson/aula11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../arvore-binaria-busca/arvore-binaria-busca/src/br/com/waldson/aula11/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +23,33 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Qz4gr7Y1YpgLIZlZPkmvj2bnXl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.ufrn.imd.edb2.uni2.hilton" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.ufrn.imd.edb2.uni2.hilton" />
     </key>
@@ -36,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FilaBancoTest.mustReorderWhenPriorityChange">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="br.ufrn.imd.edb2.uni2.hilton.Main" />
       <module name="Heap" />
@@ -47,6 +77,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilaBancoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Heap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ufrn.imd.edb2.uni2.hilton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ufrn.imd.edb2.uni2.hilton" />
+      <option name="MAIN_CLASS_NAME" value="br.ufrn.imd.edb2.uni2.hilton.FilaBancoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilaBancoTest.mustReorderWhenPriorityChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Heap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ufrn.imd.edb2.uni2.hilton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ufrn.imd.edb2.uni2.hilton" />
+      <option name="MAIN_CLASS_NAME" value="br.ufrn.imd.edb2.uni2.hilton.FilaBancoTest" />
+      <option name="METHOD_NAME" value="mustReorderWhenPriorityChange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilaBancoTest.peekMustReturnElementHighestPriority" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Heap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ufrn.imd.edb2.uni2.hilton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ufrn.imd.edb2.uni2.hilton" />
+      <option name="MAIN_CLASS_NAME" value="br.ufrn.imd.edb2.uni2.hilton.FilaBancoTest" />
+      <option name="METHOD_NAME" value="peekMustReturnElementHighestPriority" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FilaBancoTest.mustReorderWhenPriorityChange" />
+        <item itemvalue="JUnit.FilaBancoTest" />
+        <item itemvalue="JUnit.FilaBancoTest.peekMustReturnElementHighestPriority" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,5 +145,16 @@
       <updated>1568760204366</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

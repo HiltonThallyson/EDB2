@@ -30,5 +30,7 @@ public class Main {
         frame.add(view);
 //
         frame.setVisible(true);
+        tree.remove(6);
+        tree.remove(8);
     }
 }
