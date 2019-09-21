@@ -2,9 +2,9 @@ package br.ufrn.imd.edb2.uni2.hilton;
 
 import java.util.Arrays;
 
-public class FilaBanco {
+public class FilaBanco implements Listener{
 
-    private Pessoa[] pessoas;
+    public Pessoa[] pessoas;
     private int size;//quantos elementos tem
     private int capacity; //quantos elementos pode ter
 
@@ -24,6 +24,7 @@ public class FilaBanco {
     }
 
     public void addPessoa(Pessoa pessoa) {
+        pessoa.addListener(this);
         this.ensureCapacity();
         this.pessoas[getSize()] = pessoa;
         heapifyUp(getSize());
@@ -111,4 +112,8 @@ public class FilaBanco {
         return capacity;
     }
 
+    @Override
+    public void notifyEvent() {
+        heapifyDown(0);
+    }
 }

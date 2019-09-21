@@ -4,10 +4,9 @@ package br.ufrn.imd.edb2.uni2.hilton;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertSame;
+import static org.junit.Assert.*;
 
-public class FilaBancoTest {
+public class FilaBancoTest{
 
 
     FilaBanco fila = null;
@@ -39,12 +38,24 @@ public class FilaBancoTest {
 
     }
     @Test
-    public void addPessoa() {
+    public void addPessoaByName() {
+        //Arrange
+        //Act
+        fila.addPessoa("Hilton", 27);
+        //Assert
+        assertEquals("Hilton", fila.peek().getNome());
     }
 
     @Test
-    public void testAddPessoa() {
+    public void addPessoaByObject() {
+        //Arrange
+        Pessoa p = new Pessoa("Hilton", 27);
+        //Act
+        fila.addPessoa(p);
+        //Assert
+        assertSame(p, fila.peek());
     }
+
 
     @Test
     public void peekMustReturnElementHighestPriority() {
@@ -57,15 +68,16 @@ public class FilaBancoTest {
     }
 
     @Test
-    public void remove() {
-    }
-
-    @Test
-    public void getSize() {
-    }
-
-    @Test
-    public void getCapacity() {
+    public void removeElementWithHighestPriority() {
+        //Arrange
+        Pessoa p = new Pessoa("João", 46);
+        Pessoa t = new Pessoa("Maria", 35);
+        fila.addPessoa(p);
+        fila.addPessoa(t);
+        //Act
+        fila.remove();
+        //Assert
+        assertSame(t,fila.peek());
     }
 
     @Test

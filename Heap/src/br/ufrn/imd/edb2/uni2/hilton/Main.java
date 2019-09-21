@@ -12,6 +12,7 @@ public class Main {
         fila.addPessoa("Tio", 50);
         fila.addPessoa(new Pessoa("beltrano", 5));
 
+
         while (fila.getSize() > 0) {
             Pessoa p = fila.peek();
             System.out.println(p.getNome() + " está sendo atendido.");

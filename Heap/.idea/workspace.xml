@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dcd8fbc-3033-46d2-8dc1-a467e972f02c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Heap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Heap/br/ufrn/imd/edb2/uni2/hilton/FilaBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Heap/br/ufrn/imd/edb2/uni2/hilton/FilaBanco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Heap/br/ufrn/imd/edb2/uni2/hilton/FilaBancoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Heap/br/ufrn/imd/edb2/uni2/hilton/FilaBancoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Heap/br/ufrn/imd/edb2/uni2/hilton/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Heap/br/ufrn/imd/edb2/uni2/hilton/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Heap/br/ufrn/imd/edb2/uni2/hilton/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Heap/br/ufrn/imd/edb2/uni2/hilton/Pessoa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/FilaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/FilaBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/FilaBancoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/FilaBancoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arvore-binaria-busca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../arvore-binaria-busca/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../arvore-binaria-busca/arvore-binaria-busca/src/br/com/waldson/aula11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../arvore-binaria-busca/arvore-binaria-busca/src/br/com/waldson/aula11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufrn/imd/edb2/uni2/hilton/Pessoa.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +26,7 @@
       <list>
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -66,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FilaBancoTest.mustReorderWhenPriorityChange">
+  <component name="RunManager" selected="JUnit.FilaBancoTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="br.ufrn.imd.edb2.uni2.hilton.Main" />
       <module name="Heap" />
@@ -92,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilaBancoTest.mustReorderWhenPriorityChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilaBancoTest.addPessoaByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Heap" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +105,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.ufrn.imd.edb2.uni2.hilton" />
       <option name="MAIN_CLASS_NAME" value="br.ufrn.imd.edb2.uni2.hilton.FilaBancoTest" />
-      <option name="METHOD_NAME" value="mustReorderWhenPriorityChange" />
+      <option name="METHOD_NAME" value="addPessoaByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilaBancoTest.peekMustReturnElementHighestPriority" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilaBancoTest.addPessoaByObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Heap" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +121,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.ufrn.imd.edb2.uni2.hilton" />
       <option name="MAIN_CLASS_NAME" value="br.ufrn.imd.edb2.uni2.hilton.FilaBancoTest" />
-      <option name="METHOD_NAME" value="peekMustReturnElementHighestPriority" />
+      <option name="METHOD_NAME" value="addPessoaByObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilaBancoTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Heap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ufrn.imd.edb2.uni2.hilton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ufrn.imd.edb2.uni2.hilton" />
+      <option name="MAIN_CLASS_NAME" value="br.ufrn.imd.edb2.uni2.hilton.FilaBancoTest" />
+      <option name="METHOD_NAME" value="remove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,9 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FilaBancoTest.mustReorderWhenPriorityChange" />
         <item itemvalue="JUnit.FilaBancoTest" />
-        <item itemvalue="JUnit.FilaBancoTest.peekMustReturnElementHighestPriority" />
+        <item itemvalue="JUnit.FilaBancoTest.remove" />
+        <item itemvalue="JUnit.FilaBancoTest.addPessoaByObject" />
+        <item itemvalue="JUnit.FilaBancoTest.addPessoaByName" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -151,7 +171,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
