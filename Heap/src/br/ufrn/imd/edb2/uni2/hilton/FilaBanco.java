@@ -71,6 +71,7 @@ public class FilaBanco implements Listener{
 
     public void remove() {
         pessoas[0] = pessoas[size-1];
+        pessoas[getSize() - 1].removeListener(this);
         pessoas[getSize() - 1] = null;
         size--;
         heapifyDown(0);
@@ -113,7 +114,19 @@ public class FilaBanco implements Listener{
     }
 
     @Override
-    public void notifyEvent() {
-        heapifyDown(0);
+    public void notifyEvent(Pessoa p, int oldAge) {
+        int index = -1;
+        for(int i = 0 ; i < getSize() ; i++){
+            if(p.getNome() == pessoas[i].getNome()){
+                index = i;
+                break;
+            }
+        }
+        if(p.getIdade() > oldAge){
+            heapifyUp(index);
+        }else{
+            heapifyDown(index);
+        }
+
     }
 }

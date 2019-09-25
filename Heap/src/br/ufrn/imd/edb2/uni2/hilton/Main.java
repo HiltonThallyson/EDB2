@@ -6,12 +6,16 @@ public class Main {
         //heap / Priority queue
 
         FilaBanco fila = new FilaBanco();
+        Pessoa m = new Pessoa("maria", 25);
         fila.addPessoa("fulano", 20);
         fila.addPessoa("Sicrano", 10);
         fila.addPessoa("vovó", 64);
         fila.addPessoa("Tio", 50);
+        fila.addPessoa(m);
         fila.addPessoa(new Pessoa("beltrano", 5));
 
+
+        m.setIdade(1);
 
         while (fila.getSize() > 0) {
             Pessoa p = fila.peek();

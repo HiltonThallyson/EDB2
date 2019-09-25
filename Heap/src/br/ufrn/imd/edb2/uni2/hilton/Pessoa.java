@@ -16,6 +16,10 @@ public class Pessoa {
         listeners.add(fila);
     }
 
+    public void removeListener(FilaBanco fila){
+        listeners.remove(fila);
+    }
+
     public Pessoa(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
@@ -34,9 +38,10 @@ public class Pessoa {
     }
 
     public void setIdade(int idade) {
+        int oldAge = this.getIdade();
         this.idade = idade;
         for(Listener l : listeners){
-            l.notifyEvent();
+            l.notifyEvent(this, oldAge);
         }
     }
 
