@@ -2,25 +2,20 @@ package br.ufrn.imd.edb2.uni2.hilton;
 
 public class HeapSort {
     private int size;
-    private int index;
-
     public HeapSort(int [] array) {
         this.sortHeap(array);
     }
 
-    public int getSize() {
-        return size;
-    }
-
-    public int getIndex() {
-        return index;
-    }
-
     public void sortHeap(int[] array) {
         size = array.length;
-        index = size/2;
-        heapifyUp(index, array);
-        heapifyUp(index -1, array);
+        int index = (int)size/2;
+
+        for(int i = index-1 ; i >= 0; i--){
+            heapifyDown(i, array, size);
+        }
+//        heapifyDown(index, array, size);
+//        heapifyDown(index-1, array,size);
+//        heapifyUp(index -1, array);
         moveRoot(array, size);
     }
 
@@ -31,8 +26,7 @@ public class HeapSort {
         }else{
             array[0] = array[size - 1];
             array[size-1] = tmp;
-            System.out.println(array[0]);
-            heapifyDown(0, array, size);
+            heapifyDown(0, array, size-1);
             moveRoot(array, size - 1);
         }
     }
@@ -85,5 +79,9 @@ public class HeapSort {
 
     private int getParentIndex(int index) {
         return (int) Math.floor((index-1) / 2);
+    }
+
+    public int getSize() {
+        return size;
     }
 }
