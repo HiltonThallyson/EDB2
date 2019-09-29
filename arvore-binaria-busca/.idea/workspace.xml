@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79123983-3b90-409b-ae10-317d006283f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compilations/production/arvore-binaria-busca/br/com/waldson/aula11/ArvoreBinariaBusca.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compilations/production/arvore-binaria-busca/br/com/waldson/aula11/ArvoreBinariaBusca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compilations/production/arvore-binaria-busca/br/com/waldson/aula11/ArvoreBinariaBuscaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compilations/production/arvore-binaria-busca/br/com/waldson/aula11/ArvoreBinariaBuscaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compilations/production/arvore-binaria-busca/br/com/waldson/aula11/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compilations/production/arvore-binaria-busca/br/com/waldson/aula11/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Compilations/production/arvore-binaria-busca/br/com/waldson/aula11/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compilations/production/arvore-binaria-busca/br/com/waldson/aula11/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeapSort/out/production/HeapSort/br/ufrn/imd/edb2/uni2/hilton/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeapSort/out/production/HeapSort/br/ufrn/imd/edb2/uni2/hilton/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeapSort/src/br/ufrn/imd/edb2/uni2/hilton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HeapSort/src/br/ufrn/imd/edb2/uni2/hilton/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/ArvoreBinariaBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/ArvoreBinariaBusca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/ArvoreBinariaBuscaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/ArvoreBinariaBuscaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/Node.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +49,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.waldson.aula11.Main" />
+  <component name="RunManager" selected="JUnit.ArvoreBinariaBuscaTest">
+    <configuration name="ArvoreBinariaBuscaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arvore-binaria-busca" />
       <extension name="coverage">
         <pattern>
@@ -50,6 +58,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="br.com.waldson.aula11" />
+      <option name="MAIN_CLASS_NAME" value="br.com.waldson.aula11.ArvoreBinariaBuscaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,12 +113,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArvoreBinariaBuscaTest.searchAndNotFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arvore-binaria-busca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.waldson.aula11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.waldson.aula11" />
+      <option name="MAIN_CLASS_NAME" value="br.com.waldson.aula11.ArvoreBinariaBuscaTest" />
+      <option name="METHOD_NAME" value="searchAndNotFind" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ArvoreBinariaBuscaTest" />
         <item itemvalue="JUnit.ArvoreBinariaBuscaTest.removeIfNodeHasTwoChildren" />
         <item itemvalue="JUnit.ArvoreBinariaBuscaTest.removeIfNodeHasOneChild" />
         <item itemvalue="JUnit.ArvoreBinariaBuscaTest.removeIfNodeIsLeaf" />
+        <item itemvalue="JUnit.ArvoreBinariaBuscaTest.searchAndNotFind" />
       </list>
     </recent_temporary>
   </component>

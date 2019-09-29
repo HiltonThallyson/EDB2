@@ -3,16 +3,45 @@ package br.com.waldson.aula11;
 import java.util.Objects;
 
 public class Node {
-    private Node left;
-    private Node right;
+    private Node left = null;
+    private Node right = null;
     private int value;
+
+    //Métodos especiais
+    public Node(int value) {
+        this.value = value;
+    }
 
     public int getValue() {
         return value;
     }
 
-    public Node(int value) {
-        this.value = value;
+    public Node getLeft() {
+        return this.left;
+    }
+
+    public Node getRight() {
+        return this.right;
+    }
+
+    //Métodos públicos
+
+    public int getHeight() {
+        int leftHeight = 0;
+        int rightHeight = 0;
+
+        if(getLeft() == null && getRight() == null){
+            return 0;
+        }
+
+        if(this.getLeft() != null){
+            leftHeight = this.getLeft().getHeight();
+        }
+        if(this.getRight() != null){
+            rightHeight = this.getRight().getHeight();
+        }
+
+        return 1 + Math.max(leftHeight, rightHeight);
     }
 
     public void insert(Node node) {
@@ -83,14 +112,6 @@ public class Node {
         return node.getValue();
     }
 
-    public Node getLeft() {
-        return this.left;
-    }
-
-    public Node getRight() {
-        return this.right;
-    }
-
     @Override
     public boolean equals(Object o) {
         if(this == o){
@@ -102,6 +123,32 @@ public class Node {
 
         Node node = (Node)o;
         return Objects.equals(o,this);
+    }
+
+    public boolean isBalanced() {
+
+        if(getRight() == null && getLeft() == null){
+            return true;
+        }
+
+        int leftHeight = 0;
+        int rightHeight = 0;
+        boolean leftBalanced = true;
+        boolean rightBalanced = true;
+
+        if(getLeft() != null){
+           leftHeight =  getLeft().getHeight();
+           leftBalanced = getLeft().isBalanced();
+        }
+        if(getRight() != null) {
+            rightHeight = getRight().getHeight();
+            rightBalanced = getRight().isBalanced();
+        }
+
+        if(Math.abs(leftHeight - rightHeight) <= 1 && leftBalanced && rightBalanced){
+            return true;
+        }
+        return false;
     }
 }
 

@@ -3,12 +3,12 @@ package br.com.waldson.aula11;
 public class ArvoreBinariaBusca {
     private Node root = null;
 
+    //Métodos especiais
+    //Métodos públicos
+
     public boolean isEmpty() {
         return root == null;
     }
-
-
-
     public Node getRoot(){
         return this.root;
     }
@@ -37,5 +37,11 @@ public class ArvoreBinariaBusca {
         root.removeNode(this.root , key);
     }
 
+    public int getHeight(){
+        return root.getHeight();
+    }
 
+    public boolean isBalanced(){
+        return root.isBalanced();
+    }
 }
