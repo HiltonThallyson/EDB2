@@ -143,4 +143,14 @@ public class ArvoreBinariaBuscaTest {
         //Assert
         assertFalse(balanced);
     }
+
+    @Test
+    public void TestBalanceIfTreeIsLeaf() {
+        tree.insert(10);
+        boolean balanced;
+
+        balanced = tree.isBalanced();
+
+        assertTrue(balanced);
+    }
 }
