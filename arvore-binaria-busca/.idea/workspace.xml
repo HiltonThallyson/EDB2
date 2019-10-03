@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/../HeapSort/out/production/HeapSort/br/ufrn/imd/edb2/uni2/hilton/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeapSort/out/production/HeapSort/br/ufrn/imd/edb2/uni2/hilton/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HeapSort/src/br/ufrn/imd/edb2/uni2/hilton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HeapSort/src/br/ufrn/imd/edb2/uni2/hilton/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/ArvoreBinariaBuscaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/arvore-binaria-busca/src/br/com/waldson/aula11/ArvoreBinariaBuscaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +46,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArvoreBinariaBuscaTest.TestBalanceIfTreeIsLeaf">
-    <configuration name="ArvoreBinariaBuscaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArvoreBinariaBuscaTest.TestHeightIfNodeIsntLeaf">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.waldson.aula11.Main" />
       <module name="arvore-binaria-busca" />
       <extension name="coverage">
         <pattern>
@@ -54,9 +56,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.waldson.aula11" />
-      <option name="MAIN_CLASS_NAME" value="br.com.waldson.aula11.ArvoreBinariaBuscaTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArvoreBinariaBuscaTest.removeIfNodeHasOneChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArvoreBinariaBuscaTest.TestHeightIfNodeIsLeaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arvore-binaria-busca" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +102,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.waldson.aula11" />
       <option name="MAIN_CLASS_NAME" value="br.com.waldson.aula11.ArvoreBinariaBuscaTest" />
-      <option name="METHOD_NAME" value="removeIfNodeHasOneChild" />
+      <option name="METHOD_NAME" value="TestHeightIfNodeIsLeaf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArvoreBinariaBuscaTest.removeIfNodeHasTwoChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArvoreBinariaBuscaTest.TestHeightIfNodeIsntLeaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arvore-binaria-busca" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +118,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.waldson.aula11" />
       <option name="MAIN_CLASS_NAME" value="br.com.waldson.aula11.ArvoreBinariaBuscaTest" />
-      <option name="METHOD_NAME" value="removeIfNodeHasTwoChildren" />
+      <option name="METHOD_NAME" value="TestHeightIfNodeIsntLeaf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArvoreBinariaBuscaTest.TestHeightIfNodeIsntLeaf" />
+        <item itemvalue="JUnit.ArvoreBinariaBuscaTest.TestHeightIfNodeIsLeaf" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ArvoreBinariaBuscaTest.TestBalanceIfTreeIsLeaf" />
         <item itemvalue="JUnit.ArvoreBinariaBuscaTest.TestBalanceIfTreeIsNull" />
-        <item itemvalue="JUnit.ArvoreBinariaBuscaTest" />
-        <item itemvalue="JUnit.ArvoreBinariaBuscaTest.removeIfNodeHasTwoChildren" />
-        <item itemvalue="JUnit.ArvoreBinariaBuscaTest.removeIfNodeHasOneChild" />
       </list>
     </recent_temporary>
   </component>

@@ -153,4 +153,32 @@ public class ArvoreBinariaBuscaTest {
 
         assertTrue(balanced);
     }
+
+    @Test
+    public void TestHeightIfNodeIsLeaf() {
+        tree.insert(10);
+        int height;
+
+        height = tree.getHeight();
+
+        assertEquals(0, height);
+    }
+
+    @Test
+    public void TestHeightIfNodeIsntLeaf() {
+        tree.insert(6);
+        tree.insert(3);
+        tree.insert(2);
+        tree.insert(4);
+        tree.insert(9);
+        tree.insert(10);
+        tree.insert(8);
+        tree.insert(1);
+        tree.insert(0);
+        int height;
+
+        height = tree.getHeight();
+
+        assertEquals(4, height);
+    }
 }
