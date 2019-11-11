@@ -26,24 +26,25 @@ public class RedBlackTree {
 
         if(node.getKey() < parent.getKey()){
             parent.setLeft(insert(node, parent.getLeft()));
+            return balance(parent.getLeft());
         }else{
             parent.setRight(insert(node, parent.getRight()));
+            return balance(parent.getRight());
         }
-        balance(node);
-        return parent;
+
     }
 
-    private void balance(RedBlackNode node) {
+    private RedBlackNode balance(RedBlackNode node) {
         //Primeiro caso
         if(node.equals(root)){
             node.setColor(Color.BLACK);
-            return;
+            return node;
         }
 
         //Segundo caso
-//        if(node.getParent().getColor().equals(Color.BLACK)){
-//            return node.getParent();
-//        }
+        if(node.getParent().getColor().equals(Color.BLACK)){
+            return node.getParent();
+        }
 
         //Terceiro caso e quarto caso
         if(node.getParent().getColor().equals(Color.RED)){
@@ -60,11 +61,12 @@ public class RedBlackTree {
                 uncle.getParent().flipColor();
                 node.getParent().flipColor();
                 balance(uncle.getParent());
-                return;
+                return node.getParent();
             }else{
 
             }
         }
+        return node.getParent();
     }
 
     public RedBlackNode getRoot() {
